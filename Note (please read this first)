@@ -15,6 +15,7 @@ Berikut adalah cara untuk menjalankannya :
 2. Buat database dahulu pada localhost dengan nama 'booking_db'
 3. Untuk menjalankan API, ketik 'nodemon index' pada folder backend
 4. Untuk menjalankan frontend, ketik 'npx expo start' pada folder frontend
+5. Ingat untuk menginstall npm 
 
 Referensi : https://www.youtube.com/watch?v=es9_6RFR7wk&t=1665s
 
