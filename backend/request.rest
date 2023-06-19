@@ -1,0 +1,46 @@
+GET http://localhost:2000/cust
+
+###
+GET http://localhost:2000/cust/1
+
+###
+POST http://localhost:2000/cust
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "address": "New York",
+    "type_service": "normal",
+    "note": "test"
+}
+
+###
+PATCH  http://localhost:2000/cust/3
+Content-Type: application/json
+
+{
+    "name": "Dyah",
+    "address": "Tabanan",
+    "type_service": "Express",
+    "note": "test 2"
+}
+
+###
+DELETE   http://localhost:2000/cust/2
+
+
+
+# untuk menjalankan websitenya, diperlukan langkah - langkah ini:
+# 1. Yang pasti setelah lakuin git clone itu npm install
+# 2. Buat database di localhost mu dengan nama 'booking_db'
+# 3. Untuk jalanin backendnya, pakai perintah 'nodemon index'
+# 4. Untuk jalanin frontendnya, pakai perintah 'npm start'
+# 5. Ingat start apache dan mysql di xampp
+
+# Deskripsi Singkat : Website dengan konsep CRUD tapi untuk
+# booking laundry gitu.
+
+# Backendnya pakai Node Js, Express, Mysql
+# Frontendnya pakai React.js dan Bootstrap
+
+# Referensi : https://www.youtube.com/watch?v=es9_6RFR7wk&t=1665s

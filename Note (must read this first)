@@ -1,0 +1,22 @@
+Nama : Putu Dyah Kencana Dewi
+NIM : 2001020003
+
+Jadi saya membuat API sendiri menggunakan Express.js yang berada di folder backend. Sedangkan untuk frontendnya menggunakan React Native berada di folder frontend. Namun ada beberapa permasalahan yang tidak bisa saya selesaikan, yaitu :
+
+1. Saat menjalankan program menggunakan Expo Go offline (melalui VS Code), API tidak mau tersambung sehingga tidak bisa dijalankan tapi display melalui Andorid terlihat.
+2. Saat menjalankan program menggunakan Expo Go Online, API tersambung dan dapat digunakan, namun hanya bisa digunakan saat display melalui Web, jika dijalankan melalui Android, akan tiba tiba disconnected.
+   Perlu diketahui bahwa API yang saya gunakan itu SAMA antara Expo Go Offline dengan Expo Go Online.
+
+Link Expo Go Online : https://snack.expo.dev/@dkd31/uas-dyah
+
+Berikut adalah cara untuk menjalankannya :
+
+1. Start Apache & Mysql pada XAMPP
+2. Buat database dahulu pada localhost dengan nama 'booking_db'
+3. Untuk menjalankan API, ketik 'nodemon index' pada folder backend
+4. Untuk menjalankan frontend, ketik 'npx expo start' pada folder frontend
+
+Referensi : https://www.youtube.com/watch?v=es9_6RFR7wk&t=1665s
+
+Terima kasih sudah membaca dengan baik, semoga dapat dimengerti
+Have a nice day ^^
